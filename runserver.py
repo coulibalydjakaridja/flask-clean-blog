@@ -23,4 +23,4 @@ def init_db():
     logging.warning("Database initialized !")
     
 if __name__ == "__main__":
-    app.run(threaded=True, port=8080)
+    app.run(threaded=True)
